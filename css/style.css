@@ -21,9 +21,10 @@ body {
 }
 
 .nav {
-  margin-top: 20px;
+  margin: 20px auto 0 auto;
   min-height: 50px;
   background: #c7e4ff;
+  width: 100%;
 }
 
 .content {
@@ -39,4 +40,25 @@ body {
   flex-shrink: 0;
   min-height: 50px;
   background: #dbc7ff;
+}
+
+/*-----
+  Basic layout of sections above
+----*/
+
+.nav ul {
+  text-align: center;
+  list-style: none;
+  line-height: 50px;
+}
+
+.nav li {
+  width: 160px;;
+  display: inline-block;
+}
+.nav li:before {
+  content: "[ ";
+}
+.nav li:after {
+  content: " ]";
 }
