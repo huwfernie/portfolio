@@ -45,20 +45,51 @@ body {
 /*-----
   Basic layout of sections above
 ----*/
+/*-----
+  Nav bar
+----*/
 
 .nav ul {
   text-align: center;
   list-style: none;
-  line-height: 50px;
+  margin: 0;
 }
 
 .nav li {
-  width: 160px;;
   display: inline-block;
+  cursor: pointer;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 16px;
 }
 .nav li:before {
   content: "[ ";
 }
 .nav li:after {
   content: " ]";
+}
+.nav li:hover {
+  color:#3700ff;
+}
+
+.subNav {
+  background: #ffc7c7;
+  float: left;
+  margin-top: 0;
+}
+/*-----
+  Footer
+----*/
+
+.footer ul {
+  text-align: center;
+  list-style: none;
+}
+
+.footer li {
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 16px;
 }
