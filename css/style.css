@@ -67,15 +67,27 @@ body {
 }
 .nav li:after {
   content: " ]";
+  color: inherit;
 }
 .nav li:hover {
   color:#3700ff;
 }
 
 .subNav {
-  background: #ffc7c7;
+  background: #676767;
+  color: #ffffff;
   float: left;
   margin-top: 0;
+  opacity: 0;
+  transition: opacity 0.7s linear;
+}
+
+.subNav a, .subNav a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+.subNav li:hover {
+  color: #fffcd6;
 }
 /*-----
   Footer
