@@ -136,7 +136,7 @@ body {
   width: 1080px;
   margin: 0 auto;
   height: 100%;
-  padding-top: 200px;
+  padding-top: 50px;
   border-right: 1px dashed grey;
   border-left: 1px dashed grey;
 }
@@ -145,4 +145,9 @@ body {
   font-size: 2em;
   text-align: center;
   margin: 0;
+}
+
+
+figure {
+  visibility: hidden;
 }
