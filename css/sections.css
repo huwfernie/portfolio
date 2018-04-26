@@ -9,9 +9,21 @@
   Design
 ----*/
 .design h3 {
-  font-size: 18px;
+  font-size: 2em;
   margin-left: 30px;
 }
 .design p {
+  font-size: 1.2em;
+  text-align: left;
+}
+/*-----
+  Games
+----*/
+.design h3 {
+  font-size: 2em;
+  margin-left: 30px;
+}
+.design p {
+  font-size: 1.2em;
   text-align: left;
 }
