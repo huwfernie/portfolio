@@ -1,4 +1,12 @@
 /*-----
+  home
+----*/
+.content p {
+  font-size: 2em;
+  text-align: center;
+  margin: 0;
+}
+/*-----
   Contact
 ----*/
 .contact p {
@@ -8,7 +16,7 @@
 /*-----
   Design
 ----*/
-.design h3 {
+.design h2 {
   font-size: 2em;
   margin-left: 30px;
 }
@@ -19,11 +27,44 @@
 /*-----
   Games
 ----*/
-.design h3 {
-  font-size: 2em;
+.games h2 {
+  font-size: 1.6em;
   margin-left: 30px;
 }
-.design p {
+.games p {
+  font-size: 1.2em;
+  text-align: left;
+}
+/*-----
+  MVP / Prototypes
+----*/
+.mvp h2 {
+  font-size: 1.6em;
+  margin-left: 30px;
+}
+.mvp p {
+  font-size: 1.2em;
+  text-align: left;
+}
+/*-----
+  Arduino
+----*/
+.arduino h2 {
+  font-size: 1.6em;
+  margin-left: 30px;
+}
+.arduino p {
+  font-size: 1.2em;
+  text-align: left;
+}
+/*-----
+  Intro
+----*/
+.intro h2 {
+  font-size: 1.6em;
+  margin-left: 30px;
+}
+.intro p {
   font-size: 1.2em;
   text-align: left;
 }
