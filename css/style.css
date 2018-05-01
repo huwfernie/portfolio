@@ -140,11 +140,11 @@ body {
 ----*/
 
 .content {
+  box-sizing: border-box;
   width: 1080px;
   margin: 0 auto;
   height: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding:50px;
   border-right: 1px dashed grey;
   border-left: 1px dashed grey;
 }

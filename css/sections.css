@@ -1,73 +1,77 @@
 /*-----
-This is css for all the /pages content. in alphbetical order per page
+Generic
 ----*/
+.content h2 {
+  font-size: 1.6em;
+  margin-left: 30px;
+}
+.content p {
+  font-size: 1.2em;
+  text-align: left;
+}
 /*-----
 Arduino
 ----*/
 .arduino h2 {
-  font-size: 1.6em;
-  margin-left: 30px;
+
 }
 .arduino p {
-  font-size: 1.2em;
-  text-align: left;
+
 }
 /*-----
-  Contact
+Contact
 ----*/
 .contact p {
-  font-size: 18px;
-  margin-bottom: 12px;
+  text-align: center;
+}
+.contact a:visited {
+  color: blue;
+}
+.contact a {
+  text-decoration: none;
+}
+.contact a:hover {
+  text-decoration: underline;
 }
 /*-----
-  Design
+Design
 ----*/
 .design h2 {
-  font-size: 2em;
-  margin-left: 30px;
+
 }
 .design p {
-  font-size: 1.2em;
-  text-align: left;
+
 }
 /*-----
-  Games
+Games
 ----*/
 .games h2 {
-  font-size: 1.6em;
-  margin-left: 30px;
+
 }
 .games p {
-  font-size: 1.2em;
-  text-align: left;
+
 }
 /*-----
 home
 ----*/
-.content p {
-  font-size: 2em;
-  text-align: center;
-  margin: 0;
+.home p {
+
 }
 /*-----
 Intro
 ----*/
 .intro h2 {
-  font-size: 1.6em;
-  margin-left: 30px;
+
 }
 .intro p {
-  font-size: 1.2em;
-  text-align: left;
+
 }
 /*-----
-  MVP / Prototypes
+MVP / Prototypes
 ----*/
 .mvp h2 {
-  font-size: 1.6em;
-  margin-left: 30px;
+
 }
 .mvp p {
-  font-size: 1.2em;
-  text-align: left;
+
 }
