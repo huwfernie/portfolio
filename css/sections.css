@@ -1,10 +1,16 @@
 /*-----
-  home
+This is css for all the /pages content. in alphbetical order per page
 ----*/
-.content p {
-  font-size: 2em;
-  text-align: center;
-  margin: 0;
+/*-----
+Arduino
+----*/
+.arduino h2 {
+  font-size: 1.6em;
+  margin-left: 30px;
+}
+.arduino p {
+  font-size: 1.2em;
+  text-align: left;
 }
 /*-----
   Contact
@@ -36,6 +42,25 @@
   text-align: left;
 }
 /*-----
+home
+----*/
+.content p {
+  font-size: 2em;
+  text-align: center;
+  margin: 0;
+}
+/*-----
+Intro
+----*/
+.intro h2 {
+  font-size: 1.6em;
+  margin-left: 30px;
+}
+.intro p {
+  font-size: 1.2em;
+  text-align: left;
+}
+/*-----
   MVP / Prototypes
 ----*/
 .mvp h2 {
@@ -43,28 +68,6 @@
   margin-left: 30px;
 }
 .mvp p {
-  font-size: 1.2em;
-  text-align: left;
-}
-/*-----
-  Arduino
-----*/
-.arduino h2 {
-  font-size: 1.6em;
-  margin-left: 30px;
-}
-.arduino p {
-  font-size: 1.2em;
-  text-align: left;
-}
-/*-----
-  Intro
-----*/
-.intro h2 {
-  font-size: 1.6em;
-  margin-left: 30px;
-}
-.intro p {
   font-size: 1.2em;
   text-align: left;
 }
