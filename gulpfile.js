@@ -1,7 +1,8 @@
 'use strict';
 
-var gulp = require('gulp');
-var sass = require('gulp-sass');
+const gulp = require('gulp');
+const sass = require('gulp-sass');
+const nodemon = require('gulp-nodemon');
 
 gulp.task('sass', function () {
   return gulp.src('./source/**/*.scss')
@@ -13,4 +14,13 @@ gulp.task('sass:watch', function () {
   gulp.watch('./source/**/*.scss', ['sass']);
 });
 
-gulp.task( 'default', [ 'sass' ] );
+gulp.task('start', function () {
+  nodemon({
+    script: 'app.js',
+    ext: 'js html scss',
+    env: { 'NODE_ENV': 'development' },
+    tasks: 'sass'
+  });
+});
+
+gulp.task( 'default', [ 'sass','start' ] );
