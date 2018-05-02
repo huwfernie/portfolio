@@ -3,84 +3,50 @@ Generic
 ----*/
 .content h2 {
   font-size: 1.6em;
-  margin-left: 30px;
-}
+  margin-left: 30px; }
+
 .content p {
   font-size: 1.2em;
-  text-align: left;
-}
+  text-align: left; }
+
 /*-----
 Arduino
 ----*/
-.arduino h2 {
-
-}
-.arduino p {
-
-}
 /*-----
 Contact
 ----*/
 .contact p {
-  text-align: center;
-}
+  text-align: center; }
+
 .contact a:visited {
-  color: blue;
-}
+  color: blue; }
+
 .contact a {
-  text-decoration: none;
-}
+  text-decoration: none; }
+
 .contact a:hover {
-  text-decoration: underline;
-}
+  text-decoration: underline; }
+
 /*-----
 Design
 ----*/
-.design h2 {
-
-}
-.design p {
-
-}
 /*-----
 Games
 ----*/
-.games h2 {
-
-}
-.games p {
-
-}
 /*-----
 home
 ----*/
-.home p {
-
-}
 /*-----
 Intro
 ----*/
-.intro h2 {
-
-}
-.intro p {
-
-}
 /*-----
 MVP / Prototypes
 ----*/
-.mvp h2 {
-
-}
-.mvp p {
-
-}
 .mvp #yabee {
-  border: 1px dotted red;
-}
+  border: 1px dotted red; }
+
 .mvp #travel {
-  border: 1px dotted red;
-}
+  border: 1px dotted red; }
+
 .mvp #runIMG {
-  border: 1px dotted red;
-}
+  border: 1px dotted red; }
