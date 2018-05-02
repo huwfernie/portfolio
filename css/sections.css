@@ -75,3 +75,12 @@ MVP / Prototypes
 .mvp p {
 
 }
+.mvp #yabee {
+  border: 1px dotted red;
+}
+.mvp #travel {
+  border: 1px dotted red;
+}
+.mvp #runIMG {
+  border: 1px dotted red;
+}
