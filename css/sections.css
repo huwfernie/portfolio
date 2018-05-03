@@ -42,11 +42,43 @@ Intro
 /*-----
 MVP / Prototypes
 ----*/
-.mvp #yabee {
-  border: 1px dotted red; }
+.mvp #yabee section:last-of-type p,
+.mvp #travel section:last-of-type p,
+.mvp #runIMG section:last-of-type p {
+  text-align: center; }
 
-.mvp #travel {
-  border: 1px dotted red; }
+.mvp figure {
+  margin: 0; }
 
-.mvp #runIMG {
-  border: 1px dotted red; }
+#yabee .mvp-yabee-hero {
+  background-image: url("../images/yabee/hero_large.png");
+  background-size: cover;
+  border: 1px solid grey;
+  height: 250px;
+  width: 475px;
+  margin-top: 10px; }
+
+#yabee .mvp-yabee-stack {
+  background-image: url("../images/yabee/stack_large.png");
+  height: 88px;
+  width: 686px;
+  margin: 0 auto;
+  margin-bottom: 20px; }
+
+#yabee .mvp-yabee-messages {
+  background-image: url("../images/yabee/messages_medium.png");
+  background-size: cover;
+  border: 1px solid grey;
+  height: 430px;
+  width: 475px; }
+
+#yabee .fifty {
+  width: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-right: -4px;
+  vertical-align: top; }
+  #yabee .fifty p {
+    text-align: justify; }
+  #yabee .fifty h2 {
+    margin-top: 0; }

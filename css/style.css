@@ -130,12 +130,9 @@ body {
 ----*/
 .content {
   box-sizing: border-box;
-  width: 1080px;
   margin: 0 auto;
   height: 100%;
-  padding: 50px;
-  border-right: 1px dashed grey;
-  border-left: 1px dashed grey; }
+  padding: 50px 0; }
 
 .hidden {
   visibility: hidden; }
