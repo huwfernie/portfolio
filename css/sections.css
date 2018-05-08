@@ -61,7 +61,7 @@ Intro
 MVP / Prototypes
 ----*/
 .mvp #overview section {
-  height: calc(50vh - 260px); }
+  height: calc(50vh - 290px); }
 
 .mvp figure {
   margin: 0; }
@@ -121,3 +121,27 @@ MVP / Prototypes
   border: 1px solid grey;
   height: 265px;
   width: 475px; }
+
+.mvp #runIMG .mvp-runIMG-hero {
+  background-image: url("../images/runIMG/hero_large_3.png");
+  background-size: cover;
+  border: 0px solid grey;
+  height: 490px;
+  width: 475px;
+  margin-top: 10px;
+  margin-left: 60px; }
+
+.mvp #runIMG .mvp-runIMG-stack {
+  background-image: url("../images/runIMG/stack_large.png");
+  height: 104px;
+  width: 813px;
+  margin: 0 auto;
+  margin-bottom: 20px; }
+
+.mvp #runIMG .mvp-runIMG-map {
+  background-image: url("../images/runIMG/map_large.png");
+  background-size: cover;
+  border: 0px solid grey;
+  height: 490px;
+  width: 475px;
+  margin-top: -160px; }

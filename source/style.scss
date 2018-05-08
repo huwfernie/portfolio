@@ -42,7 +42,11 @@ body {
   background: #c7e4ff;
   border-top: 1px solid #559ac9;
 }
-
+a, a:visited {
+  color: blue;
+  cursor: pointer;
+  text-decoration: none;
+}
 /*-----
   Basic layout of sections above
 ----*/
