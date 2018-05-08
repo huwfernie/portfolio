@@ -115,9 +115,9 @@ MVP / Prototypes
   margin: 0 auto;
   margin-bottom: 20px; }
 
-.mvp #travel .mvp-travel-messages {
+.mvp #travel .mvp-travel-features {
   background-image: url("../images/travel/map_large.png");
   background-size: cover;
   border: 1px solid grey;
-  height: 430px;
+  height: 265px;
   width: 475px; }
