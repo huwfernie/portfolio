@@ -1,6 +1,3 @@
-console.log('Hello Huw');
-
-
 $(() => {
   // const menu = [
   //   { name: 'Introduction'},
@@ -11,4 +8,5 @@ $(() => {
   //   { name: 'Design', children: [{name: 'This site', address: '#'},{name: 'Outside the box?', address: '#'}]}];
   // return menu;
 
+  
 });
