@@ -1,10 +1,10 @@
 <section class="nav subNav">
   <ul>
-    <li><a ng-click="gotoBottom()">Yabee</a></li>
-    <li><a href="#">Travel Blogging</a></li>
-    <li><a href="#">City Running</a></li>
-    <li><a href="#">Blog_to_Kindle</a></li>
-    <li><a href="#">Scrape_From_Live</a></li>
+    <li><a ng-click="goto('yabee')">Yabee</a></li>
+    <li><a ng-click="goto('travel')">Travel Blogging</a></li>
+    <li><a ng-click="goto('runIMG')">City Running</a></li>
+    <li class="none"><a ng-click="goto('blog')">Blog_to_Kindle</a></li>
+    <li class="none"><a ng-click="goto('scrape')">Scrape_From_Live</a></li>
   </ul>
 </section>
 <div class="content mvp">
@@ -117,5 +117,87 @@
         However registration for Google Vision has expired, so image there is limited functionality.</p>
         <p>Or you can look through the code here <a href="">GitHub</a></p>
     </section>
-    </div>
   </div>
+  <div id="blog">
+    <section>
+      <span class="fifty">
+        <figure class="mvp-blog-hero"></figure>
+      </span>
+      <span class="fifty">
+        <h2>Blog to Kindle</h2>
+        <p>Say you sit at a computer all day, also lets imagine you like reading… but after work you really don't want to read stuff on another LCD screen. Its' great that they invented e-books like Kindle for people just for you.</p>
+        <p>But, what if the thing you really want to read is online, like a blog, something like <a href="http://www.mrmoneymustache.com/">Mr Money Moustache</a> wouldn't it be great if you could turn a blog into an e-book?</p>
+      </span>
+    </section>
+    <section>
+      <h2>The Stack</h2>
+      <p>This site is really a follow on from my work related <em>scrape from live</em> project. It's all Javascript working in Node, there is a simple HTML form and then a button to start the process.</p>
+      <figure class="mvp-blog-stack"></figure>
+    </section>
+    <section>
+      <span class="fifty">
+        <figure class="mvp-blog-form"></figure>
+      </span>
+      <span class="fifty">
+        <h2>Localhost</h2>
+        <p>To begin with, node will start a localhost, then the form asks for some details about the blog, some are for the kindle file, the important ones are the target web address.</p>
+      </span>
+    </section>
+    <section>
+      <span class="fifty">
+        <figure class="mvp-blog-process"></figure>
+      </span>
+      <span class="fifty">
+        <h2>Process</h2>
+        <p>Node can then load the first blog. Using some pre-programmed (but easily changeable) CSS selectors it's possible to strip out the body of the blog. It's also possible with CSS to find the little button inviting you to read the next blog… so blog 1 leads to 2, to 3… either until a limit is reached, or until there is no "next" button on the page.</p>
+      </span>
+    </section>
+    <section>
+      <span class="fifty">
+        <figure class="mvp-blog-command"></figure>
+      </span>
+      <span class="fifty">
+        <h2>Command Line</h2>
+        <p>When all the blogs have been scraped, the titles need to be stripped out into a table of contents, and a bulid manifest has to be made. Then these files are sent into a command line tool made by Amazon, which - if everything has worked properly - will output a kindle file with the whole blog, saved as one big book.</p>
+      </span>
+    </section>
+    <section>
+      <figure class="mvp-blog-final"></figure>
+      <h2></h2>
+      <p class="none">You can download a sample book: <a href="">here</a>.</p>
+      <p>There are still some bugs in the code so it doesn't work for now!</p>
+      <p>Or you can look through the code here <a href="">GitHub</a></p>
+    </section>
+  </div>
+  <div id="scrape">
+    <section>
+      <span class="fifty">
+        <figure class="mvp-scrape-hero"></figure>
+      </span>
+      <span class="fifty">
+        <h2>Travel Blogging</h2>
+        <p>The idea for this site was to try to take some of the pain out of setting up and maintaining a personal blog, as well as being a single point to visit when looking for a bit of inspiration. So a cross between sites like <a href="http://www.instructables.com/">www.instructables.com</a> and <a href="https://medium.com/">www.medium.com</a></p>
+      </span>
+    </section>
+    <section>
+      <h2>The Stack</h2>
+      <p>This site is built on a Node backend, using Express for the framework and EJS as the view engine. Blogs and users are saved in a NoSQL database.</p>
+      <figure class="mvp-scrape-stack"></figure>
+    </section>
+    <section>
+      <span class="fifty">
+        <figure class="mvp-scrape-features"></figure>
+      </span>
+      <span class="fifty">
+        <h2>Features</h2>
+        <p>To help with presentation the site incorporates a google map with pins for each of the blogs. It also has facebook/twitter style profile pages. Blogs are written in markdown which lets the authors add some basic formatting and images can be added to blogs - these are stored on AWS.</p>
+      </span>
+    </section>
+    <section>
+      <figure class="mvp-scrape-final"></figure>
+      <h2></h2>
+      <p>You can see the final result here <a href="">Travel Blog</a></p>
+      <p>Or you can look through the code here <a href="">GitHub</a></p>
+    </section>
+  </div>
+</div>

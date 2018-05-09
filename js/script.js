@@ -56,10 +56,11 @@ profileApp.config(function($routeProvider, $locationProvider) {
 // create the controller and inject Angular's $scope
 profileApp.controller('mainController', ['$scope', '$location', '$anchorScroll',
   function($scope, $location, $anchorScroll) {
-    $scope.gotoBottom = function() {
+    $scope.goto = function(text) {
+      console.log(text);
       // set the location.hash to the id of
       // the element you wish to scroll to.
-      $location.hash('bottom');
+      $location.hash(text);
 
       // call $anchorScroll()
       $anchorScroll();
