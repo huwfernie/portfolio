@@ -66,12 +66,23 @@ Design
 /*-----
 Games
 ----*/
-.games h2 {
-
+.games figure { margin: 70px 0 0 0;}
+.games figure.right { margin-left: 50px;}
+.games #overview {
+  margin-top: 50px;
+  padding-top: 80px;
 }
-.games p {
-
+.games #dots, .games #sudoku, .games #space, .games #poker {
+  padding-top: 80px;
 }
+
+.games #dots .games-dots { background-image: url('../images/games/dots_large.png'); background-size: cover; border: 0px solid grey;  height: 360px; width: 515px;}
+.games #dots .games-dots2 { background-image: url('../images/games/dots2_large.png'); background-size: cover; border: 0px solid grey;  height: 360px; width: 515px; margin-top: 0;}
+.games #space .games-space { background-image: url('../images/games/space_large.png'); background-size: cover; border: 0px solid grey;  height: 360px; width: 515px;}
+.games #space .games-space2 { background-image: url('../images/games/space2_large.png'); background-size: cover; border: 0px solid grey;  height: 360px; width: 515px; margin-top: 0;}
+.games #sudoku .games-sudoku { background-image: url('../images/games/sudoku_large.png'); background-size: cover; border: 0px solid grey;  height: 360px; width: 515px;}
+.games #poker .games-poker { background-image: url('../images/games/poker_large.png'); background-size: cover; border: 0px solid grey;  height: 360px; width: 515px;}
+.games #poker .games-poker2 { background-image: url('../images/games/poker2_large.png'); background-size: cover; border: 0px solid grey;  height: 360px; width: 515px; margin-top: 0;}
 /*-----
 home
 ----*/
@@ -105,17 +116,26 @@ MVP / Prototypes
 .mvp #travel section:last-of-type p,
 .mvp #runIMG section:last-of-type p,
 .mvp #blog section:last-of-type p,
-.mvp #scrape section:last-of-type p, {
+.mvp #scrape section:last-of-type p {
   text-align: center;
 }
 .mvp #yabee .mvp-yabee-hero { background-image: url('../images/yabee/hero_large.png'); background-size: cover; border: 1px solid grey;  height: 250px; width: 475px; margin-top: 10px;}
 .mvp #yabee .mvp-yabee-stack { background-image: url('../images/yabee/stack_large.png'); height: 88px; width: 686px; margin: 0 auto; margin-bottom: 20px;}
 .mvp #yabee .mvp-yabee-messages { background-image: url('../images/yabee/messages_medium.png'); background-size: cover; border: 1px solid grey;  height: 430px; width: 475px;}
 
-.mvp #travel .mvp-travel-hero { background-image: url('../images/travel/home_large.png'); background-size: cover; border: 1px solid grey;  height: 250px; width: 475px; margin-top: 10px;}
+.mvp #travel .mvp-travel-hero { background-image: url('../images/travel/home_large.png'); background-size: cover; border:0px solid grey;  height: 250px; width: 475px; margin-top: 10px;}
 .mvp #travel .mvp-travel-stack { background-image: url('../images/travel/stack_large.png'); height: 104px; width: 813px; margin: 0 auto; margin-bottom: 20px;}
-.mvp #travel .mvp-travel-features { background-image: url('../images/travel/map_large.png'); background-size: cover; border: 1px solid grey;  height: 265px; width: 475px;}
+.mvp #travel .mvp-travel-features { background-image: url('../images/travel/map_large.png'); background-size: cover; border: 0px solid grey;  height: 265px; width: 475px;}
 
+.mvp #runIMG {background: #f5f5f5; }
 .mvp #runIMG .mvp-runIMG-hero { background-image: url('../images/runIMG/hero_large_3.png'); background-size: cover; border: 0px solid grey;  height: 490px; width: 475px; margin-top: 10px; margin-left:60px;}
 .mvp #runIMG .mvp-runIMG-stack { background-image: url('../images/runIMG/stack_large.png'); height: 104px; width: 813px; margin: 0 auto; margin-bottom: 20px;}
 .mvp #runIMG .mvp-runIMG-map { background-image: url('../images/runIMG/map_large.png'); background-size: cover; border: 0px solid grey;  height: 490px; width: 475px; margin-top:-160px;}
+
+.mvp #blog .mvp-blog-hero { background-image: url('../images/blog/hero_large.png'); background-size: cover; border: 0px solid grey;  height: 490px; width: 475px; margin-top: 10px; margin-left:60px;}
+.mvp #blog .mvp-blog-stack { background-image: url('../images/blog/stack_large.png'); height: 87px; width: 322px; margin: 0 auto; margin-bottom: 20px;}
+.mvp #blog .mvp-blog-map { background-image: url('../images/blog/terminal_large.png'); background-size: cover; border: 0px solid grey;  height: 490px; width: 475px; margin-top:-160px;}
+
+.mvp #scrape .mvp-scrape-hero { background-image: url('../images/scrape/hero_large_2.png'); background-size: cover; border: 0px solid grey;  height: 490px; width: 574px; margin-top: 10px; margin-left:-40px;}
+.mvp #scrape .mvp-scrape-stack { background-image: url('../images/scrape/stack_large.png'); height: 87px; width: 322px; margin: 0 auto; margin-bottom: 20px;}
+.mvp #scrape .mvp-scrape-terminal { background-image: url('../images/scrape/terminal_large.png'); background-size: cover; border: 0px solid grey;  height: 350px; width: 515px; margin-top:60px;}

@@ -53,7 +53,6 @@
       <p>You can see the final result here <a href="">Yabee</a></p>
       <p>Or you can look through the code here <a href="">GitHub</a></p>
     </section>
-    <a id="bottom"></a> You're at the bottom!
   </div>
   <div id="travel">
     <section>
@@ -100,7 +99,7 @@
     <section>
       <span class="fifty">
         <h2></h2>
-        <p>The end result was a great app that pulled in google maps for displaying the route, as well as </p>
+        <p>That picture is then sent to the Google Vision API, which can confirm the co-ordinates of where the photo was taken. Now a timer can start and we put in Google Maps to give you an end point to race to.</p> <p>This was a fun app to build, and we felt that with a bit of tweaking and by cleverly integrating social media it could have gone somewhere.</p>
       </span>
       <span class="fifty">
         <figure class="mvp-runIMG-map"></figure>
@@ -166,8 +165,9 @@
       <h2></h2>
       <p class="none">You can download a sample book: <a href="">here</a>.</p>
       <p>There are still some bugs in the code so it doesn't work for now!</p>
-      <p>Or you can look through the code here <a href="">GitHub</a></p>
+      <p>If you want to help out with the code have a look here: <a href="">GitHub</a></p>
     </section>
+    <hr>
   </div>
   <div id="scrape">
     <section>
@@ -175,28 +175,34 @@
         <figure class="mvp-scrape-hero"></figure>
       </span>
       <span class="fifty">
-        <h2>Travel Blogging</h2>
-        <p>The idea for this site was to try to take some of the pain out of setting up and maintaining a personal blog, as well as being a single point to visit when looking for a bit of inspiration. So a cross between sites like <a href="http://www.instructables.com/">www.instructables.com</a> and <a href="https://medium.com/">www.medium.com</a></p>
+        <h2>Scrape from live:</h2>
+        <p>This started out as a tool to make work a little bit easier; let's set the scene. We're working for an agency that has to update many sites, the new design is mostly done but you need to put in a few bits of information from the current live site.</p>
+        <p>Of course it is possible to do this by looking through all the files in the repo, but wouldn't it be nice to have one refence file, definitely up to date, and with just the sections you're interested in so you don't end up searching through hundreds of files.</p>
       </span>
     </section>
     <section>
       <h2>The Stack</h2>
-      <p>This site is built on a Node backend, using Express for the framework and EJS as the view engine. Blogs and users are saved in a NoSQL database.</p>
+      <p>This is really a few JavaScript functions running in Node. It needed a tiny bit of user input, so that was a small HTML form, with a tiny bit of CSS - it was never designed to be pretty!</p>
       <figure class="mvp-scrape-stack"></figure>
     </section>
     <section>
       <span class="fifty">
-        <figure class="mvp-scrape-features"></figure>
+        <figure class="mvp-scrape-terminal"></figure>
       </span>
       <span class="fifty">
         <h2>Features</h2>
-        <p>To help with presentation the site incorporates a google map with pins for each of the blogs. It also has facebook/twitter style profile pages. Blogs are written in markdown which lets the authors add some basic formatting and images can be added to blogs - these are stored on AWS.</p>
+        <p>Once you run the Node app, you can go to the localy hosted homepage where you find a form.</p>
+        <p>Enter details about the website you want to scrape, and what country codes you need.</p>
+        <p>Figure out the CSS selector that will get you what you need.</p>
+        <p>Click "go", and look for any progress/errors in the terminal.</p>
+        <p>Once it's run, click "finish" and open the timestamped html file to see the results.</p>
       </span>
     </section>
     <section>
       <figure class="mvp-scrape-final"></figure>
       <h2></h2>
-      <p>You can see the final result here <a href="">Travel Blog</a></p>
+      <p>* this was built to work with some specific clients, for their privacy I've changed this code to work with <a href="https://en.wikipedia.org">Wikipedia</a> instead.</p>
+      <p>You can see an example scrape from Wikipedia here: <a href="">Scrape from Wikipedia</a></p>
       <p>Or you can look through the code here <a href="">GitHub</a></p>
     </section>
   </div>
