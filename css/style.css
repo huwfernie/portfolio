@@ -96,7 +96,7 @@ a, a:visited {
 .nav li:hover:after {
   color: #ae6dca; }
 
-.nav li:hover a {
+.nav a li:hover {
   color: #559ac9; }
 
 .nav li:hover {

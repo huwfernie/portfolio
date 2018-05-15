@@ -193,13 +193,12 @@ MVP / Prototypes
   background: #f5f5f5; }
 
 .mvp #runIMG .mvp-runIMG-hero {
-  background-image: url("../images/runIMG/hero5_large.png");
+  background-image: url("../images/runIMG/hero6_large.png");
   background-size: cover;
   border: 0px solid grey;
-  height: 490px;
+  height: 660px;
   width: 475px;
-  margin-top: 10px;
-  margin-left: 60px; }
+  margin-top: -80px; }
 
 .mvp #runIMG .mvp-runIMG-stack {
   background-image: url("../images/runIMG/stack_large.png");
@@ -212,15 +211,16 @@ MVP / Prototypes
   background-image: url("../images/runIMG/map3_large.png");
   background-size: cover;
   border: 0px solid grey;
-  height: 490px;
+  height: 620px;
   width: 475px;
-  margin-top: -160px; }
+  margin-top: -290px;
+  margin-right: 20px; }
 
 .mvp #blog .mvp-blog-hero {
   background-image: url("../images/blog/hero_large.png");
   background-size: cover;
   border: 0px solid grey;
-  height: 490px;
+  height: 350px;
   width: 475px;
   margin-top: 10px;
   margin-left: 60px; }
