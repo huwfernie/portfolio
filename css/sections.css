@@ -20,6 +20,13 @@ Generic
   .fifty h2 {
     margin-top: 0; }
 
+.backToTop {
+  text-align: center;
+  padding-bottom: 15px; }
+  .backToTop a:after {
+    content: "\2191";
+    padding: 0 4px; }
+
 /*-----
 Home
 ----*/
@@ -131,9 +138,6 @@ Intro
 /*-----
 MVP / Prototypes
 ----*/
-.mvp #overview section {
-  height: calc(50vh - 290px); }
-
 .mvp figure {
   margin: 0; }
 

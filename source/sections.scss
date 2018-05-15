@@ -23,6 +23,15 @@ Generic
     margin-top: 0;
   }
 }
+
+.backToTop {
+  text-align: center;
+  padding-bottom: 15px;
+  &  a:after {
+    content: "\2191";
+    padding: 0 4px;
+  }
+}
 /*-----
 Home
 ----*/
@@ -107,9 +116,15 @@ Intro
 /*-----
 MVP / Prototypes
 ----*/
-.mvp #overview section {
-  height: calc(50vh - 290px;);
-}
+// .mvp #overview section {
+//   height: calc(50vh - 290px;);
+// }
+// .mvp #overview {
+//   min-height: calc(50vh - 290px;);
+// }
+// .mvp #overview section {
+//   display: block;
+// }
 .mvp figure { margin: 0;}
 .mvp #yabee {
   margin-top: 50px;
