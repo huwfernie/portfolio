@@ -193,7 +193,7 @@ MVP / Prototypes
   background: #f5f5f5; }
 
 .mvp #runIMG .mvp-runIMG-hero {
-  background-image: url("../images/runIMG/hero_large_3.png");
+  background-image: url("../images/runIMG/hero5_large.png");
   background-size: cover;
   border: 0px solid grey;
   height: 490px;
@@ -209,7 +209,7 @@ MVP / Prototypes
   margin-bottom: 20px; }
 
 .mvp #runIMG .mvp-runIMG-map {
-  background-image: url("../images/runIMG/map_large.png");
+  background-image: url("../images/runIMG/map3_large.png");
   background-size: cover;
   border: 0px solid grey;
   height: 490px;
