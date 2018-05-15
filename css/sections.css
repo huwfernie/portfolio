@@ -64,6 +64,12 @@ Games
 .games #dots, .games #sudoku, .games #space, .games #poker {
   padding-top: 80px; }
 
+.games #dots section:last-of-type p,
+.games #sudoku section:last-of-type p,
+.games #space section:last-of-type p,
+.games #poker section:last-of-type p {
+  text-align: center; }
+
 .games #dots .games-dots {
   background-image: url("../images/games/dots_large.png");
   background-size: cover;
