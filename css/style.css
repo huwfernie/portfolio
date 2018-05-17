@@ -22,14 +22,12 @@ body {
 
 @media only screen and (max-width: 736px) {
   .hero {
-    background-image: url("../images/logo_medium.png");
     height: 189px;
     width: 400px; } }
 
 @media only screen and (max-width: 410px) {
   .hero {
-    background-image: url("../images/logo_small.png");
-    height: 151px;
+    height: 167px;
     width: 320px; } }
 
 .nav {
@@ -65,7 +63,15 @@ a, a:visited {
 
 @media only screen and (max-width: 736px) {
   .hero-image {
-    background-image: url("../images/logo_small.png"); } }
+    background-image: url("../images/logo_medium.png");
+    height: 189px;
+    width: 400px; } }
+
+@media only screen and (max-width: 410px) {
+  .hero-image {
+    background-image: url("../images/logo_small.png");
+    height: 167px;
+    width: 320px; } }
 
 /*-----
   Nav bar with sub-menu
@@ -131,24 +137,35 @@ a, a:visited {
 ----*/
 .footer ul {
   text-align: center;
-  list-style: none; }
+  list-style: none;
+  line-height: 1;
+  padding: 0; }
 
 .footer li {
   display: inline-block;
   cursor: pointer;
   margin-left: 15px;
   margin-right: 15px;
-  margin-top: 16px; }
+  margin-top: 1px; }
 
 /*-----
   Content
 ----*/
 .content {
   box-sizing: border-box;
-  width: 1080px;
+  width: 100%;
   margin: 0 auto;
   height: 100%;
-  padding: 50px 0; }
+  padding: 50px 0;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #444; }
+
+.content section {
+  max-width: 1080px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 0 50px; }
 
 .hidden {
   visibility: hidden; }

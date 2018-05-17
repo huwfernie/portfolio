@@ -179,7 +179,7 @@ MVP / Prototypes
   width: 475px; }
 
 .mvp #travel .mvp-travel-hero {
-  background-image: url("../images/travel/home_large.png");
+  background-image: url("../images/travel/hero_large.png");
   background-size: cover;
   border: 0px solid grey;
   height: 250px;
@@ -204,7 +204,7 @@ MVP / Prototypes
   background: #f5f5f5; }
 
 .mvp #runIMG .mvp-runIMG-hero {
-  background-image: url("../images/runIMG/hero6_large.png");
+  background-image: url("../images/runIMG/hero_large.png");
   background-size: cover;
   border: 0px solid grey;
   height: 660px;
@@ -219,12 +219,12 @@ MVP / Prototypes
   margin-bottom: 20px; }
 
 .mvp #runIMG .mvp-runIMG-map {
-  background-image: url("../images/runIMG/map3_large.png");
+  background-image: url("../images/runIMG/map_large.png");
   background-size: cover;
   border: 0px solid grey;
   height: 620px;
   width: 475px;
-  margin-top: -290px;
+  margin-top: -240px;
   margin-right: 20px; }
 
 .mvp #blog .mvp-blog-hero {
@@ -252,7 +252,7 @@ MVP / Prototypes
   margin-top: -160px; }
 
 .mvp #scrape .mvp-scrape-hero {
-  background-image: url("../images/scrape/hero_large_2.png");
+  background-image: url("../images/scrape/hero_large.png");
   background-size: cover;
   border: 0px solid grey;
   height: 490px;
