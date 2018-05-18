@@ -154,7 +154,15 @@ MVP / Prototypes
 .mvp #runIMG section:last-of-type p,
 .mvp #blog section:last-of-type p,
 .mvp #scrape section:last-of-type p {
-  text-align: center; }
+  text-align: center;
+  line-height: 1; }
+
+.mvp #yabee,
+.mvp #travel,
+.mvp #runIMG,
+.mvp #blog,
+.mvp #scrape {
+  border-top: 1px solid black; }
 
 .mvp #yabee .mvp-yabee-hero {
   background-image: url("../images/yabee/hero_large.png");
@@ -233,8 +241,7 @@ MVP / Prototypes
   border: 0px solid grey;
   height: 350px;
   width: 475px;
-  margin-top: 10px;
-  margin-left: 60px; }
+  margin-top: 10px; }
 
 .mvp #blog .mvp-blog-stack {
   background-image: url("../images/blog/stack_large.png");
@@ -255,10 +262,9 @@ MVP / Prototypes
   background-image: url("../images/scrape/hero_large.png");
   background-size: cover;
   border: 0px solid grey;
-  height: 490px;
-  width: 574px;
-  margin-top: 10px;
-  margin-left: -40px; }
+  height: 378px;
+  width: 445px;
+  margin-top: 10px; }
 
 .mvp #scrape .mvp-scrape-stack {
   background-image: url("../images/scrape/stack_large.png");
@@ -271,6 +277,6 @@ MVP / Prototypes
   background-image: url("../images/scrape/terminal_large.png");
   background-size: cover;
   border: 0px solid grey;
-  height: 350px;
-  width: 515px;
+  height: 300px;
+  width: 445px;
   margin-top: 60px; }

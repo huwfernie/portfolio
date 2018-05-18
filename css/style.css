@@ -20,7 +20,7 @@ body {
   width: 568px;
   border: none; }
 
-@media only screen and (max-width: 736px) {
+@media only screen and (max-width: 735px) {
   .hero {
     height: 189px;
     width: 400px; } }
@@ -33,9 +33,21 @@ body {
 .nav {
   margin: 0 auto;
   min-height: 50px;
-  background: #c7e4ff;
   background: #a5a7a9;
   width: 100%; }
+
+@media only screen and (max-width: 735px) {
+  .nav ul {
+    max-width: 530px;
+    margin: 0 auto; }
+    .nav ul a {
+      display: inline-block;
+      width: 150px;
+      box-sizing: border-box;
+      text-align: center; }
+    .nav ul li {
+      padding: 0 5px;
+      margin: 0 -5px; } }
 
 .footer {
   flex-shrink: 0;
@@ -61,7 +73,7 @@ a, a:visited {
   width: 100%;
   margin: 0; }
 
-@media only screen and (max-width: 736px) {
+@media only screen and (max-width: 735px) {
   .hero-image {
     background-image: url("../images/logo_medium.png");
     height: 189px;
@@ -94,7 +106,8 @@ a, a:visited {
   margin-left: 15px;
   margin-right: 15px;
   padding: 0 5px;
-  border-radius: 5px; }
+  border-radius: 5px;
+  font-size: 16px; }
 
 .nav li:before {
   content: "[ "; }

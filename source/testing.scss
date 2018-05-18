@@ -1,9 +1,9 @@
 .mvp #travel {
-  border: 0px dotted red;
+  // border: 0px dotted red;
 }
 
 .mvp #runIMG  {
-  border: 0px dotted red;
+  // border: 0px dotted red;
 }
 //
 // .content {
@@ -24,4 +24,22 @@
 
 .hero {
   border: 0px solid grey;
+}
+
+
+@media only screen and (max-width: 735px) {
+  .nav ul {
+    max-width: 530px;
+    margin: 0 auto;
+    & a {
+      display: inline-block;
+      width: 150px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    & li {
+      padding: 0 5px;
+      margin: 0 -5px;
+    }
+  }
 }

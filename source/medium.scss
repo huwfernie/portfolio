@@ -1,4 +1,4 @@
-@media only screen and (max-width: 735px) {
+@media only screen  and (min-width: 736px) and (max-width: 1068px ) {
 
   body {
     font-size: 13px;
@@ -17,9 +17,12 @@
   ----*/
 
   .subNav {
-    display: none;
+    display: block;
   }
-
+  .nav li {
+    margin-left: 6px;
+    margin-right: 6px;
+    }
   /*-----
     Footer
   ----*/
@@ -35,10 +38,10 @@
   }
   .content section {
     box-sizing: border-box;
-    max-width: 100vw;
+    max-width: 780px;
     height: 100%;
     padding: 0 10px;
-    margin: 0;
+    margin: 0 auto;
   }
 
   /*-----
@@ -138,8 +141,8 @@
   //   display: block;
   // }
   .mvp figure {
-    margin-left: -10px;
-    padding: 0 10px;
+    margin-left: 0;
+    padding: 0 ;
     width: 100%;
     height: 100%
   }
@@ -158,24 +161,31 @@
   .mvp #scrape section:last-of-type p {
     text-align: center;
   }
-  .mvp #yabee .mvp-yabee-hero { background-image: url('../images/yabee/hero_small.png'); background-size: cover; border: 1px solid grey;  min-height: 180px; height: 56vw; width: 100%; margin-top: 0;}
-  .mvp #yabee .mvp-yabee-stack { background-image: url('../images/yabee/stack_small.png'); height: 44px; width: 320px; margin: 0 auto; margin-bottom: 20px; background-size: cover; padding:0;}
-  .mvp #yabee .mvp-yabee-messages { background-image: url('../images/yabee/messages_small.png'); background-size: cover; border: 1px solid grey;  min-height: 250px; height: 73vw; width: 100%;}
+  .mvp #yabee,
+  .mvp #travel,
+  .mvp #runIMG,
+  .mvp #blog,
+  .mvp #scrape {
+    border-top: 1px solid black;
+  }
+  .mvp #yabee .mvp-yabee-hero { background-image: url('../images/yabee/hero_small.png'); background-size: cover;  height: 420px; width: 100%; margin-top: 0;}
+  .mvp #yabee .mvp-yabee-stack { background-image: url('../images/yabee/stack_small.png'); height: 50px; width: 450px; margin: 0 auto; margin-bottom: 20px; background-size: cover; padding:0;}
+  .mvp #yabee .mvp-yabee-messages { background-image: url('../images/yabee/messages_small.png'); background-size: cover; height: 370px; width: 500px; max-height: 600px; max-width: 736px; margin: 0 auto;}
 
-  .mvp #travel .mvp-travel-hero { background-image: url('../images/travel/hero_small.png'); background-size: cover; border:1px solid grey;  min-height: 250px; height: 71vw; width: 100%; margin-top: 0;}
-  .mvp #travel .mvp-travel-stack { background-image: url('../images/travel/stack_small.png'); height: 38px; width: 300px; margin: 0 auto; margin-bottom: 20px; background-size: cover; padding:0;}
-  .mvp #travel .mvp-travel-features { background-image: url('../images/travel/map_small.png'); background-size: cover; border: 1px solid grey;  min-height: 250px; height: 74vw; width: 100%;}
+  .mvp #travel .mvp-travel-hero { background-image: url('../images/travel/hero_small.png'); background-size: cover; border: 1px solid grey; border-top: 0; height: 470px; width: 100%; margin-top: 0;}
+  .mvp #travel .mvp-travel-stack { background-image: url('../images/travel/stack_small.png'); height: 50px; width: 485px; margin: 0 auto; margin-bottom: 20px; background-size: cover; padding:0;}
+  .mvp #travel .mvp-travel-features { background-image: url('../images/travel/map_small.png'); background-size: cover; border:1px solid grey; height: 370px; width: 500px; max-height: 600px; max-width: 736px; margin: 0 auto;}
 
   .mvp #runIMG {background: #f5f5f5; }
-  .mvp #runIMG .mvp-runIMG-hero { background-image: url('../images/runIMG/hero_small.png'); background-size: cover; border: 0px solid grey;  height: 462px; width: 300px; padding:0; margin: 0 auto; }
-  .mvp #runIMG .mvp-runIMG-stack { background-image: url('../images/runIMG/stack_small.png'); height: 36px; width: 300px; margin: 0 auto; margin-bottom: 20px; background-size: cover; padding:0;}
-  .mvp #runIMG .mvp-runIMG-map { background-image: url('../images/runIMG/map_small.png'); background-size: cover; border: 0px solid grey;  height: 380px; width: 300px; padding:0; margin: 0 auto; }
+  .mvp #runIMG .mvp-runIMG-hero { background-image: url('../images/runIMG/hero_small.png'); background-size: cover; border: 0px solid grey;  height: 493px; width: 320px; padding:0; margin: 0 auto; }
+  .mvp #runIMG .mvp-runIMG-stack { background-image: url('../images/runIMG/stack_small.png'); height: 50px; width: 490px; margin: 0 auto; margin-bottom: 20px; background-size: cover; padding:0;}
+  .mvp #runIMG .mvp-runIMG-map { background-image: url('../images/runIMG/map_small.png'); background-size: cover; border: 0px solid grey;  height: 400px; width: 320px; padding:0; margin: 0 auto; }
 
-  .mvp #blog .mvp-blog-hero { background-image: url('../images/blog/hero_small.png'); background-size: cover; border:1px solid grey;  min-height: 227px; height: 71vw; width: 100%; margin-left: -10px; margin-top: 0;}
-  .mvp #blog .mvp-blog-stack { background-image: url('../images/blog/stack_small.png'); height: 44px; width: 162px; margin: 0 auto; margin-bottom: 20px; background-size: cover; padding:0;}
+  .mvp #blog .mvp-blog-hero { background-image: url('../images/blog/hero_small.png'); background-size: cover;  height: 500px; width: 100%; margin: 0;}
+  .mvp #blog .mvp-blog-stack { background-image: url('../images/blog/stack_small.png'); height: 50px; width: 190px; margin: 0 auto; margin-bottom: 20px; background-size: cover; padding:0;}
   .mvp #blog .mvp-blog-map { background-image: url('../images/blog/terminal_small.png'); background-size: cover; border:1px solid grey;  min-height: 250px; height: 71vw; width: 100%; margin-top: 0;}
 
-  .mvp #scrape .mvp-scrape-hero { background-image: url('../images/scrape/hero_small.png'); background-size: cover; border: 0px solid grey;  min-height: 250px; height: 55vw; width: 100%; margin-top: 10px; margin-left: -10px;}
-  .mvp #scrape .mvp-scrape-stack { background-image: url('../images/scrape/stack_small.png'); height: 44px; width: 162px; margin: 0 auto; margin-bottom: 20px; background-size: cover; padding:0;}
-  .mvp #scrape .mvp-scrape-terminal { background-image: url('../images/scrape/terminal_small.png'); background-size: cover; border: 0px solid grey;  min-height: 180px; height: 55vw; width: 100%; margin-top:0;}
+  .mvp #scrape .mvp-scrape-hero { background-image: url('../images/scrape/hero_small.png'); background-size: cover; height: 425px; width: 500px; margin: 0 auto;}
+  .mvp #scrape .mvp-scrape-stack { background-image: url('../images/scrape/stack_small.png'); height: 50px; width: 190px; margin: 0 auto; margin-bottom: 20px; background-size: cover; padding:0;}
+  .mvp #scrape .mvp-scrape-terminal { background-image: url('../images/scrape/terminal_small.png'); background-size: cover; height: 280px; width: 500px; margin: 0 auto;}
 }

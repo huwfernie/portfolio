@@ -22,8 +22,8 @@
       <span class="fifty">
         <h2>Dots and Boxes</h2>
         <p>Dots and Boxes is the kind of game you play when all you have is a scrap of paper and the back of an envelope. I built this version as part of a Web Development training course in 2017. It was a great test to overcome the hurdles of making a game from scratch.</p>
-        <p>Initially I hard coded the board and added jQuery for the game logic, later I created a fuction that would build the board at game start and that let me introduce different board sizes.</p>
-        <p>For styling I tried to incorporate the idea of school-desks, pencils and scraps of paper, and this worked well on the desktop site. For mobile their was too little screen space, so that reverts to a plain display. I also put in a feature that will take your initial and let you claim a square when you finish it, just like the real thing. </p>
+        <p>Initially I hard coded the board and added jQuery for the game logic, later I created a function that would build the board at game start and that let me introduce different board sizes.</p>
+        <p>For styling I tried to incorporate the idea of school-desks, pencils and scraps of paper, and this worked well on the desktop site. For mobile there was too little screen space, so that reverts to a plain display. I also put in a feature that will take your initial and let you claim a square when you finish it, just like the real thing. </p>
       </span>
     </section>
     <section>
@@ -37,11 +37,11 @@
     <section>
       <span class="fifty">
         <h2>Space Invaders</h2>
-        <p>I had some spare time on my hands and my JavaScript was getting a bit rusty, so I began a <em>Space Invaders</em> project. It was really good to have something to aim for, but it was tough tyring to keep any continuity as it was built in bursts of 5 minutes here and there.</p>
+        <p>I had some spare time on my hands and my JavaScript was getting a bit rusty, so I began a <em>Space Invaders</em> project. It was really good to have something to aim for, but it was tough trying to keep any continuity as it was built in bursts of 5 minutes here and there.</p>
         <p>The first task was a centered board, then a div that could move with key presses. I decided early on not to make this responsive - the original wasn't, so I didn't add any on screen buttons.</p>
-        <p>Then came a div that was being shot upwards. It had to be created when you press space key and animate upwards, then destroy itself when it reaches the top of the board. This was all done inside a loop function, that would update on a setTimeout if there were shots on screen. To make the game harder I introduced a limit of 3 shots onscreen at once.</p>
+        <p>Then came a div that was being shot upwards. It had to be created when you press space key and animate upwards, then destroy itself when it reaches the top of the board. This was all done inside a loop function, that would update on a setTimeout if there were shots on screen. To make the game harder I introduced a limit of 3 shots on screen at once.</p>
         <p>The aliens are also divs, in an array, they don't act quite like the originals who close gaps in their ranks, and their is only one line of them, but they serve their purpose. Once I added the aliens I tried having a separate looping function similar to the shots, but I realised that syncing these two loops was too hard, so instead I moved the aliens and shots inside one loop.</p>
-        <p>To finish, I had a win or loose function that is set to run either when the aliens get to the defences, or the player defeats all the aliens. It's quite a simple game, with no scores, lives or levels; It's still fun.</p>
+        <p>To finish, I had a win or lose function that is set to run either when the aliens get to the defences, or the player defeats all the aliens. It's quite a simple game, with no scores, lives or levels; It's still fun.</p>
       </span>
       <span class="fifty">
         <figure class="games-space right"></figure>
@@ -62,7 +62,7 @@
       </span>
       <span class="fifty">
         <h2>Sudoku solver</h2>
-        <p>This isn't really a game, it's more of a game solver, so it just about falls into this catagory. It's one of those projects that happened over a rainy weekend; I solved a sudoku from the paper and in the process started to think about how dificult it would be to make a computer do it…</p>
+        <p>This isn't really a game, it's more of a game solver, so it just about falls into this category. It's one of those projects that happened over a rainy weekend; I solved a sudoku from the paper and in the process started to think about how difficult it would be to make a computer do it…</p>
         <p>The whole approach to this was much more like a hackathon than a long project. So the end result isn't very polished. I wanted to focus a bit more on the UX side of things, so spending time on the drag-and-drop numbers was nice.</p>
         <p>The logic was meant to be able to step through the solution to a puzzle one number at a time, unfortunately I was running out of time so in the end it solves many numbers at once.</p>
         <p>Even though it's a bit rough it still lets you drag and drop numbers into a grid, and will then solve the puzzle for you, so for now it's a win.</p>
