@@ -22,6 +22,14 @@ Generic
   & h2 {
     margin-top: 0;
   }
+  &.right {
+    position: relative;
+    left: 50%;
+  }
+  &.left {
+    position: relative;
+    right: 50%;
+  }
 }
 
 .backToTop {
@@ -76,7 +84,7 @@ Design
 Games
 ----*/
 .games figure { margin: 70px 0 0 0;}
-.games figure.right { margin-left: 50px;}
+.games .fifty.right figure { margin-left: 15px;}
 .games #overview {
   margin-top: 50px;
   padding-top: 80px;
@@ -91,13 +99,13 @@ Games
   text-align: center;
 }
 
-.games #dots .games-dots { background-image: url('../images/games/dots_large.png'); background-size: cover; border: 0px solid grey;  height: 360px; width: 515px;}
-.games #dots .games-dots2 { background-image: url('../images/games/dots2_large.png'); background-size: cover; border: 0px solid grey;  height: 360px; width: 515px; margin-top: 0;}
-.games #space .games-space { background-image: url('../images/games/space_large.png'); background-size: cover; border: 0px solid grey;  height: 360px; width: 515px;}
-.games #space .games-space2 { background-image: url('../images/games/space2_large.png'); background-size: cover; border: 0px solid grey;  height: 360px; width: 515px; margin-top: 0;}
-.games #sudoku .games-sudoku { background-image: url('../images/games/sudoku_large.png'); background-size: cover; border: 0px solid grey;  height: 360px; width: 515px;}
-.games #poker .games-poker { background-image: url('../images/games/poker_large.png'); background-size: cover; border: 0px solid grey;  height: 360px; width: 515px;}
-.games #poker .games-poker2 { background-image: url('../images/games/poker2_large.png'); background-size: cover; border: 0px solid grey;  height: 360px; width: 515px; margin-top: 0;}
+.games #dots .games-dots { background-image: url('../images/games/dots_large.png'); background-size: cover; border: none;  min-height: 360px; width: 515px; max-width: 100%; }
+.games #dots .games-dots2 { background-image: url('../images/games/dots2_large.png'); background-size: cover; border: none;  min-height: 360px; width: 515px; max-width: 100%; margin-top: 0;}
+.games #space .games-space { background-image: url('../images/games/space_large.png'); background-size: cover; border: none;  min-height: 360px; width: 515px; max-width: 100%; }
+.games #space .games-space2 { background-image: url('../images/games/space2_large.png'); background-size: cover; border: none;  min-height: 360px; width: 515px; max-width: 100%; margin-top: 0;}
+.games #sudoku .games-sudoku { background-image: url('../images/games/sudoku_large.png'); background-size: cover; border: none;  min-height: 360px; width: 515px; max-width: 100%; }
+.games #poker .games-poker { background-image: url('../images/games/poker_large.png'); background-size: cover; border: none;  min-height: 360px; width: 515px; max-width: 100%; }
+.games #poker .games-poker2 { background-image: url('../images/games/poker2_large.png'); background-size: cover; border: none;  min-height: 360px; width: 515px; max-width: 100%; margin-top: 0;}
 /*-----
 home
 ----*/
@@ -162,7 +170,7 @@ MVP / Prototypes
 .mvp #runIMG .mvp-runIMG-stack { background-image: url('../images/runIMG/stack_large.png'); height: 104px; width: 813px; margin: 0 auto; margin-bottom: 20px;}
 .mvp #runIMG .mvp-runIMG-map { background-image: url('../images/runIMG/map_large.png'); background-size: cover; border: 0px solid grey;  height: 620px; width: 475px; margin-top:-240px; margin-right: 20px;}
 
-.mvp #blog .mvp-blog-hero { background-image: url('../images/blog/hero_large.png'); background-size: cover; border: 0px solid grey;  height: 350px; width: 475px; margin-top: 10px; }
+.mvp #blog .mvp-blog-hero { background-image: url('../images/blog/hero_large.png'); background-size: cover; border: 0px solid grey;  height: 313px; width: 475px; margin-top: 10px; }
 .mvp #blog .mvp-blog-stack { background-image: url('../images/blog/stack_large.png'); height: 87px; width: 322px; margin: 0 auto; margin-bottom: 20px;}
 .mvp #blog .mvp-blog-map { background-image: url('../images/blog/terminal_large.png'); background-size: cover; border: 0px solid grey;  height: 490px; width: 475px; margin-top:-160px;}
 

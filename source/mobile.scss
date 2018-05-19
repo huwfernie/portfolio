@@ -1,7 +1,7 @@
 @media only screen and (max-width: 735px) {
 
   body {
-    font-size: 13px;
+    font-size: 18px;
   }
   .hero {
   margin-top: 20px;
@@ -70,6 +70,12 @@
     & h2 {
       margin-top: 0;
     }
+    &.right {
+      position: static;
+    }
+    &.left {
+      position: static;
+    }
   }
 
   /*-----
@@ -94,14 +100,21 @@
   /*-----
   Games
   ----*/
-  .games figure { margin: 70px 0 0 0;}
-  .games figure.right { margin-left: 50px;}
+  .games figure {
+    margin: 0 auto;
+    &.right,.left {
+      margin: 0 auto;
+    }
+  }
+  .games .fifty.right figure {
+    margin: 0 auto;
+  }
   .games #overview {
     margin-top: 50px;
-    padding-top: 80px;
+    padding-top: 0;
   }
   .games #dots, .games #sudoku, .games #space, .games #poker {
-    padding-top: 80px;
+    padding-top: 10px;
   }
   .games #dots section:last-of-type p,
   .games #sudoku section:last-of-type p,
@@ -110,13 +123,13 @@
     text-align: center;
   }
 
-  .games #dots .games-dots { background-image: url('../images/games/dots_small.png'); background-size: cover; border: 0px solid grey;  height: 360px; width: 515px;}
-  .games #dots .games-dots2 { background-image: url('../images/games/dots2_small.png'); background-size: cover; border: 0px solid grey;  height: 360px; width: 515px; margin-top: 0;}
-  .games #space .games-space { background-image: url('../images/games/space_small.png'); background-size: cover; border: 0px solid grey;  height: 360px; width: 515px;}
-  .games #space .games-space2 { background-image: url('../images/games/space2_small.png'); background-size: cover; border: 0px solid grey;  height: 360px; width: 515px; margin-top: 0;}
-  .games #sudoku .games-sudoku { background-image: url('../images/games/sudoku_small.png'); background-size: cover; border: 0px solid grey;  height: 360px; width: 515px;}
-  .games #poker .games-poker { background-image: url('../images/games/poker_small.png'); background-size: cover; border: 0px solid grey;  height: 360px; width: 515px;}
-  .games #poker .games-poker2 { background-image: url('../images/games/poker2_small.png'); background-size: cover; border: 0px solid grey;  height: 360px; width: 515px; margin-top: 0;}
+  .games #dots .games-dots { background-image: url('../images/games/dots_small.png'); min-height: 215px; height: 67vw; width: 100%; margin-top: 0; max-height: 300px; max-width: 400px;}
+  .games #dots .games-dots2 { background-image: url('../images/games/dots2_small.png'); min-height: 215px; height: 67vw; width: 100%; margin-top: 0; max-height: 300px; max-width: 400px;}
+  .games #space .games-space { background-image: url('../images/games/space_small.png'); min-height: 215px; height: 67vw; width: 100%; margin-top: 0; max-height: 300px; max-width: 400px;}
+  .games #space .games-space2 { background-image: url('../images/games/space2_small.png'); min-height: 215px; height: 67vw; width: 100%; margin-top: 0; max-height: 300px; max-width: 400px;}
+  .games #sudoku .games-sudoku { background-image: url('../images/games/sudoku_small.png'); min-height: 215px; height: 67vw; width: 100%; margin-top: 0; max-height: 300px; max-width: 400px;}
+  .games #poker .games-poker { background-image: url('../images/games/poker_small.png'); min-height: 215px; height: 67vw; width: 100%; margin-top: 0; max-height: 300px; max-width: 400px;}
+  .games #poker .games-poker2 { background-image: url('../images/games/poker2_small.png'); min-height: 215px; height: 67vw; width: 100%; margin-top: 0; max-height: 300px; max-width: 400px;}
   /*-----
   home
   ----*/

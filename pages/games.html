@@ -16,8 +16,8 @@
   <div id="dots">
     <section>
       <span class="fifty">
-        <figure class="games-dots left"></figure>
-        <figure class="games-dots2 left"></figure>
+        <figure class="games-dots"></figure>
+        <figure class="games-dots2"></figure>
       </span>
       <span class="fifty">
         <h2>Dots and Boxes</h2>
@@ -35,17 +35,17 @@
   </div>
   <div id="space">
     <section>
-      <span class="fifty">
+      <span class="fifty right">
+        <figure class="games-space"></figure>
+        <figure class="games-space2"></figure>
+      </span>
+      <span class="fifty left">
         <h2>Space Invaders</h2>
         <p>I had some spare time on my hands and my JavaScript was getting a bit rusty, so I began a <em>Space Invaders</em> project. It was really good to have something to aim for, but it was tough trying to keep any continuity as it was built in bursts of 5 minutes here and there.</p>
         <p>The first task was a centered board, then a div that could move with key presses. I decided early on not to make this responsive - the original wasn't, so I didn't add any on screen buttons.</p>
         <p>Then came a div that was being shot upwards. It had to be created when you press space key and animate upwards, then destroy itself when it reaches the top of the board. This was all done inside a loop function, that would update on a setTimeout if there were shots on screen. To make the game harder I introduced a limit of 3 shots on screen at once.</p>
         <p>The aliens are also divs, in an array, they don't act quite like the originals who close gaps in their ranks, and their is only one line of them, but they serve their purpose. Once I added the aliens I tried having a separate looping function similar to the shots, but I realised that syncing these two loops was too hard, so instead I moved the aliens and shots inside one loop.</p>
         <p>To finish, I had a win or lose function that is set to run either when the aliens get to the defences, or the player defeats all the aliens. It's quite a simple game, with no scores, lives or levels; It's still fun.</p>
-      </span>
-      <span class="fifty">
-        <figure class="games-space right"></figure>
-        <figure class="games-space2 right"></figure>
       </span>
     </section>
     <section>
@@ -58,7 +58,7 @@
   <div id="sudoku">
     <section>
       <span class="fifty">
-        <figure class="games-sudoku left"></figure>
+        <figure class="games-sudoku"></figure>
       </span>
       <span class="fifty">
         <h2>Sudoku solver</h2>
@@ -77,7 +77,11 @@
   </div>
   <div id="poker">
     <section>
-      <span class="fifty">
+      <span class="fifty right">
+        <figure class="games-poker"></figure>
+        <figure class="games-poker2"></figure>
+      </span>
+      <span class="fifty left">
         <h2>Poker</h2>
         <p>This started out as a code test, but in the end it was quite a nice project, so I have included it here.</p>
         <p>The brief was to create a game of poker, where you can have a one-click game that will randomly deal 7 cards to two players and then give you the winner.</p>
@@ -85,10 +89,6 @@
         <p>There was also an extension to rank the cards by suit, and give bonus points for getting a pair, 3 of a kind, or a straight.</p>
         <p>It was all built for frontend use, so the logic is in a JavaScript app, with help from jQuery and there is a separate app for the UI, which kept them both a bit cleaner.</p>
         <p>It would be interesting to make this into a backend app, maybe similar to <a target="_blank" href="https://www.dragonsofmugloar.com/">dragonsofmugloar.com</a> but that will have to wait for a rainy weekend.</p>
-      </span>
-      <span class="fifty">
-        <figure class="games-poker left"></figure>
-        <figure class="games-poker2 left"></figure>
       </span>
     </section>
     <section>
