@@ -93,7 +93,12 @@
   /*-----
   Contact
   ----*/
-
+  .content.contact section {
+    width: 470px;
+    & p{
+      text-align: center;
+    }
+  }
   /*-----
   Design
   ----*/
