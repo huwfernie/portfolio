@@ -88,7 +88,8 @@
   /*-----
   Arduino
   ----*/
-
+  .arduino .arduino-overview { background-image: url('../images/arduino/overview.png'); min-height: 215px; height: 67vw; width: 100%; margin-top: 0; max-height: 300px; max-width: 400px;}
+  .arduino .arduino-layout { background-image: url('../images/arduino/barometer_bb.png'); min-height: 215px; height: 50vw; width: 100%; margin-top: 0; max-height: 239px; max-width: 400px;}
   /*-----
   Contact
   ----*/

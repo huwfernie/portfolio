@@ -43,6 +43,24 @@ Home
 /*-----
 Arduino
 ----*/
+.arduino .arduino-overview {
+  background-image: url("../images/arduino/overview.png");
+  background-size: cover;
+  border: none;
+  height: 386px;
+  width: 515px;
+  max-width: 100%;
+  margin: 0 auto; }
+
+.arduino .arduino-layout {
+  background-image: url("../images/arduino/barometer_bb.png");
+  background-size: cover;
+  border: none;
+  height: 307px;
+  width: 515px;
+  max-width: 100%;
+  margin: 0 auto; }
+
 /*-----
 Contact
 ----*/
