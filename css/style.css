@@ -136,7 +136,7 @@ a, a:visited {
 .subNav li:hover {
   color: #fffcd6; }
 
-.subNav:after {
+.subNav:after, .clearfix {
   content: "";
   display: table;
   clear: both; }
