@@ -43,6 +43,9 @@ Home
 /*-----
 Arduino
 ----*/
+.arduino {
+  padding-top: 0; }
+
 .arduino .arduino-overview {
   background-image: url("../images/arduino/overview.png");
   background-size: cover;
@@ -87,10 +90,6 @@ Games
 
 .games .fifty.right figure {
   margin-left: 15px; }
-
-.games #overview {
-  margin-top: 50px;
-  padding-top: 80px; }
 
 .games #dots, .games #sudoku, .games #space, .games #poker {
   padding-top: 80px; }
@@ -261,9 +260,9 @@ MVP / Prototypes
   background-image: url("../images/runIMG/map_large.png");
   background-size: cover;
   border: 0px solid grey;
-  height: 620px;
+  height: 600px;
   width: 475px;
-  margin-top: -240px;
+  margin-top: -220px;
   margin-right: 20px; }
 
 .mvp #blog .mvp-blog-hero {

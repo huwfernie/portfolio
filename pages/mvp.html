@@ -13,7 +13,7 @@
       <figure class="mvp-intro"></figure>
       <h2>Full Stack Prototypes</h2>
       <p>I have here a few projects from my training course at General Assembly, as well as some other projects that I have worked on over the last year.</p>
-      <p>Each one uses a slightly different stack, but they have similar themes throughout; user authentication, database integration, AWS storage and cloud deployed.</p>
+      <p>Each one uses a slightly different stack, but they have similar themes throughout; user authentication, database integration, AWS storage and deployed on Heroku.</p>
     </section>
     <section>
       <figure class="mvp-projects"></figure>
@@ -95,7 +95,7 @@
       </span>
       <span class="fifty">
         <h2>City Running</h2>
-        <p>Run-IMG was a group project, 4 peoples work from a week long sprint. The idea was to map out running routes in London.</p>
+        <p>Run-IMG was a group project; 4 peoples work from a week long sprint. The idea was to map out running routes in London.</p>
         <p>The start and endpoint for each route would be a recognisable monument or landmark. To register a run you need to submit a picture at the start and finish of the track which we use to verify and time the run.</p>
       </span>
     </section>
@@ -110,7 +110,7 @@
     </section>
     <section>
       <h2>The Stack</h2>
-      <p>This is a MEAN stack app: Angular and jQuery on the frontend, with Mongo, Express and Node on the backend. As it was designed to be used on the go, all the styling was for mobile first, and as we were short on time a desktop version was never built.</p>
+      <p>This is a MEAN stack app: Angular and jQuery on the frontend, with Mongo, Express and Node on the backend. As it was designed to be used on the go, all the styling was for mobile.</p>
       <figure class="mvp-runIMG-stack"></figure>
     </section>
     <section>
@@ -134,7 +134,7 @@
     </section>
     <section>
       <h2>The Stack</h2>
-      <p>This site is really a follow on from my work related <em>scrape from live</em> project. It's all Javascript working in Node, there is a simple HTML form and then a button to start the process.</p>
+      <p>This site is really a follow on from my work related <em>scrape_from_live</em> project. It's all Javascript working in Node, with Express to render a simple HTML form.</p>
       <figure class="mvp-blog-stack"></figure>
     </section>
     <section>
@@ -142,17 +142,10 @@
         <figure class="mvp-blog-form"></figure>
       </span>
       <span class="fifty">
-        <h2>Localhost</h2>
-        <p>To begin with, node will start a localhost, then the form asks for some details about the blog, some are for the kindle file, the important ones are the target web address.</p>
-      </span>
-    </section>
-    <section>
-      <span class="fifty">
-        <figure class="mvp-blog-process"></figure>
-      </span>
-      <span class="fifty">
         <h2>Process</h2>
-        <p>Node can then load the first blog. Using some pre-programmed (but easily changeable) CSS selectors it's possible to strip out the body of the blog. It's also possible with CSS to find the little button inviting you to read the next blog… so blog 1 leads to 2, to 3… either until a limit is reached, or until there is no "next" button on the page.</p>
+        <p>To begin with, node will start a localhost, then serve a form asking for all the details needed to scrape a blog and make a book.</p>
+        <p>Node downloads the first blog, strips out the body of the blog using some pre-programmed CSS and saves it into the book being built.</p>
+        <p>On the page there is a button pointing to the next blog, so taking the URL from blog 1 leads to 2, to 3… either until a limit is reached, or until there is no "next" button on the page.</p>
       </span>
     </section>
     <section>
@@ -161,15 +154,14 @@
       </span>
       <span class="fifty">
         <h2>Command Line</h2>
-        <p>When all the blogs have been scraped, the titles need to be stripped out into a table of contents, and a build manifest has to be made. Then these files are sent into a command line tool made by Amazon, which - if everything has worked properly - will output a kindle file with the whole blog, saved as one big book.</p>
+        <p>The files are now ready for processing with the Amazon KindleGen program, which will return a kindle file with the whole blog, saved as one big book.</p>
       </span>
     </section>
     <section>
       <figure class="mvp-blog-final"></figure>
       <h2></h2>
       <p class="none">You can download a sample book: <a target="_blank" href="">here</a>.</p>
-      <p>There are still some bugs in the code so the final step doesn't work for now!</p>
-      <p>If you want to help out with the code have a look here: <a target="_blank" href="https://github.com/huwfernie/webToKindle">GitHub</a>.</p>
+      <p>Take a look through the code here:  <a target="_blank" href="https://github.com/huwfernie/webToKindle">GitHub</a>.</p>
     </section>
     <div class="backToTop"><a ng-click="goto('top')">Back to menu</a></div>
   </div>
@@ -181,12 +173,12 @@
       <span class="fifty">
         <h2>Scrape from live:</h2>
         <p>This started out as a tool to make work a little bit easier; let's set the scene. We're working for an agency that has to update many sites, the new design is mostly done but you need to put in a few bits of information from the current live site.</p>
-        <p>Of course it is possible to do this by looking through all the files in the repo, but wouldn't it be nice to have one reference file, definitely up to date, and with just the sections you're interested in so you don't end up searching through hundreds of files.</p>
+        <p>Of course it is possible to do this by looking through all the files in the repo, but wouldn't it be nice to have one reference file, absolutely up to date, and with just the sections you're interested in so you don't end up searching through hundreds of files.</p>
       </span>
     </section>
     <section>
       <h2>The Stack</h2>
-      <p>This is really a few JavaScript functions running in Node. It needed a tiny bit of user input, so that was a small HTML form, with a tiny bit of CSS - it was never designed to be pretty!</p>
+      <p>This is really a few JavaScript functions running in Node. It needed some user input, so that was a small HTML form, with a tiny bit of CSS to make it more readable.</p>
       <figure class="mvp-scrape-stack"></figure>
     </section>
     <section>
@@ -195,9 +187,9 @@
       </span>
       <span class="fifty">
         <h2>Features</h2>
-        <p>By running the Node app, you can go to the locally hosted homepage where you enter details about the website you want to scrape, and what country codes you want to scrape.</p>
-        <p>It uses the <em>cheerio</em> Node package to parse the HTML so you need to find a CSS selector to target what you need.</p>
-        <p>Click "go", and look for any progress/errors in the terminal. Clicking "finish" will close the Node server. The results are saved in a  timestamped file, in the parent directory.</p>
+        <p>By running the Node app, you can go to the locally hosted homepage where you enter details about the URL, and what country codes you want to scrape.</p>
+        <p>It uses the <em>cheerio</em> Node package to parse the HTML so you need to find a CSS selector to target the information you want saved.</p>
+        <p>Click "go", and look for any progress/errors in the terminal. The results are saved in a timestamped HTML file and Clicking "finish" will close the Node server.</p>
       </span>
     </section>
     <section>
